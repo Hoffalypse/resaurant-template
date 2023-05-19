@@ -1,10 +1,17 @@
 import React from 'react';
-
+import { images } from '../../constants'
+import { SubHeading } from '../../components'
 import './Header.css';
 
 const Header = () => (
-  <div>
-    Header
+  <div className='app__header app__wrapper section__padding' id='home'>
+
+    <div className='app__wrapper_info'>
+
+      <div app__wrapper_img>
+        <SubHeading />
+      </div>
+    </div>
   </div>
 );
 
